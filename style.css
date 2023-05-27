@@ -1,0 +1,528 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+main {
+    width: 100%;
+    height: 40vh;
+    background-color: mediumslateblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 20px;
+}
+
+main h1 {
+    color: gold;
+}
+
+main p {
+    color: greenyellow;
+}
+
+/* ---------------- 1-pages ------------------ */
+
+.container {
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    
+}
+
+.cards {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.header {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+    
+
+}
+
+header {
+    width: 80%;
+    height: 100%;
+    background-color: blanchedalmond;
+
+}
+
+ul li  {
+    display: flex ;
+    width: 100%;
+    height: 40px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    padding-left: 7px;
+    animation: border 3s infinite linear;
+    
+}
+
+
+
+ul li:hover  {
+    background-color: coral;
+
+}
+
+ul li p {
+    font-size: 25px;
+    font-weight: bold;
+    color: gray;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+}
+
+ul li a:hover {
+    color: aliceblue;
+}
+
+
+
+.categorias {
+    width: 80%;
+    height: 100%;
+    background-color: lightslategray;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.item_1 { 
+    width: 370px;
+    height: 500px;
+    animation: border 3s infinite linear;
+    
+}
+
+.item_1_top {
+    width: 100%;
+    height: 40%;
+    background-image: url(./imgs/1-rasm.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.item_1_center {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.196);
+    animation: border 3s infinite linear;
+
+}
+
+.item_1_center_left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 0 10px;
+    color: white;
+}
+
+.item_1_center_right {
+    width: 50%;
+    height: 100%;
+    font-size: small;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 0 10px;
+}
+
+.item_1_center_right button {
+    width: 120px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: gray;
+}
+
+
+.item_1_buttom {
+    width: 100%;
+    height: 40%;
+    background-image: url(./imgs/4-rasm.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+    color: black;
+}
+
+.item_1_buttom_ {
+    display: flex;
+    gap: 15px;
+}
+
+.item_1_buttom_item_1 {
+    width: 100px;
+    height: 100px;
+    background-image: url(./imgs/6-rasm.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.item_1_buttom_item_2 {
+    width: 100px;
+    height: 100px;
+    background-image: url(./imgs/7-rasm.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.item_1_buttom_item_3 {
+    width: 100px;
+    height: 100px;
+    background-image: url(./imgs/8-rasm.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* --------------------------------------- */
+
+.item_2 { 
+    width: 370px;
+    height: 500px;
+    animation: border 3s infinite linear;
+    
+}
+
+.item_2_top {
+    width: 100%;
+    height: 40%;
+    background-image: url(./imgs/4-rasm.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.item_2_center {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.196);
+    animation: border 3s infinite linear;
+
+}
+
+.item_2_center_left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 0 10px;
+    color: white;
+}
+
+.item_2_center_right {
+    width: 50%;
+    height: 100%;
+    font-size: small;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 0 10px;
+}
+
+
+
+
+.item_2_buttom {
+    width: 100%;
+    height: 40%;
+    background-image: url(./imgs/3-rasm.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+    color: coral;
+    letter-spacing: 10px;
+    font-style: italic;
+}
+
+.item_2_buttom_ {
+    display: flex;
+    gap: 15px;
+}
+
+.item_2_buttom_item_1 {
+    width: 100px;
+    height: 100px;
+    background-image: url(./imgs/6-rasm.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.item_2_buttom_item_2 {
+    width: 100px;
+    height: 100px;
+    background-image: url(./imgs/7-rasm.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.item_2_buttom_item_3 {
+    width: 100px;
+    height: 100px;
+    background-image: url(./imgs/8-rasm.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* --------------------------------------- */
+
+.item_3 { 
+    width: 370px;
+    height: 500px;
+    animation: border 3s infinite linear;
+    
+}
+
+.item_3_top {
+    width: 100%;
+    height: 40%;
+    background-image: url(./imgs/10-rasm.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.item_3_center {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.196);
+    animation: border 3s infinite linear;
+
+}
+
+.item_3_center_left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 0 10px;
+    color: white;
+}
+
+.item_3_center_right {
+    width: 50%;
+    height: 100%;
+    font-size: small;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 0 10px;
+}
+
+
+
+
+.item_3_buttom {
+    width: 100%;
+    height: 40%;
+    background-image: url(./imgs/7-rasm.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+    letter-spacing: 10px;
+    font-style: italic;
+}
+
+/* --------------------------------------- */
+
+.item_4 { 
+    width: 370px;
+    height: 500px;
+    animation: border 3s infinite linear;
+    
+}
+
+.item_4_top {
+    width: 100%;
+    height: 40%;
+    background-image: url(./imgs/5-rasm.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.item_4_center {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    position: relative;
+    border: 3px solid chartreuse;
+    animation: border 3s infinite linear;
+
+}
+
+@keyframes border {
+    0% {
+        
+    }
+
+    50% {
+        box-shadow: 0 0 20px 1px red,
+                    0 0 40px 2px gold,
+                    0 0 60px 3px chartreuse,
+                    0 0 80px 4px peru;
+        border: 3px dotted blue;
+        background-color: chartreuse;
+    }
+
+    100% {
+        
+        box-shadow: 0 0 20px 1px red,
+                    0 0 40px 2px gold,
+                    0 0 60px 3px chartreuse,
+                    0 0 80px 4px peru;
+    }
+}
+
+.item_4_center::after {
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    width: 50px;
+    height: 50px;
+    border: 3px solid red;
+    border-radius: 50%;
+    animation: shadov 3s infinite linear;
+}
+
+@keyframes shadov {
+    0% {
+        transform: rotate(0);
+    }
+
+    50% {
+        box-shadow: 0 0 20px 1px red,
+                    0 0 40px 2px gold,
+                    0 0 60px 3px chartreuse,
+                    0 0 80px 4px peru;
+        border: 3px dotted blue;
+        background-color: chartreuse;
+    }
+
+    100% {
+        transform: rotate(360deg);
+        box-shadow: 0 0 20px 1px red,
+                    0 0 40px 2px gold,
+                    0 0 60px 3px chartreuse,
+                    0 0 80px 4px peru;
+    }
+}
+
+
+.item_4_center::before {
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    width: 50px;
+    height: 50px;
+    border: 3px solid red;
+    border-radius: 50%;
+    animation: shadov2 3s infinite linear;
+}
+
+@keyframes shadov2 {
+    0% {
+        transform: rotate(0);
+    }
+
+    50% {
+        box-shadow: 0 0 20px 1px red,
+                    0 0 40px 2px gold,
+                    0 0 60px 3px chartreuse,
+                    0 0 80px 4px peru;
+        border: 3px dashed blue;
+        background-color: chartreuse;
+    }
+
+    100% {
+        transform: rotate(360deg);
+        box-shadow: 0 0 20px 1px red,
+                    0 0 40px 2px gold,
+                    0 0 60px 3px chartreuse,
+                    0 0 80px 4px peru;
+    }
+}
+
+
+
+
+.item_4_buttom {
+    width: 100%;
+    height: 40%;
+    background-image: url(./imgs/9-rasm.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+    letter-spacing: 10px;
+    font-style: italic;
+}
+
+
